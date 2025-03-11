@@ -58,7 +58,7 @@ void apply(LSystem *l_system, char *axiom, char *buf, int len) {
                 ptr++;
             }
 
-            if (ptr - buf + len == 0) break;
+            if (buf - ptr + len == 0) break;
         }
     }
 
