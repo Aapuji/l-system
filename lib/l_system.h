@@ -1,8 +1,6 @@
 #ifndef LSYSTEM_H
 #define LSYSTEM_H
 
-#include <stdio.h>
-
 #include "rule.h"
 
 #define LSYS_SIZE 256
