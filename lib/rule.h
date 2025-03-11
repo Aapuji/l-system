@@ -3,8 +3,6 @@
 
 /// Represents a production rule in an L-System. 
 ///
-///
-///
 /// `pred` is the predecessor pattern that is matched against; is a character.
 /// `succ` is the output pattern which is emitted; is a null-terminated string.
 ///
