@@ -51,7 +51,7 @@ void apply(LSystem *l_system, char *axiom, char *buf, int len) {
         } else {
             char *succ = match(l_system, axiom[i]);
             for (int j = 0; succ[j] != '\0'; j++) {
-                if (j == ptr - buf + len)
+                if (j == buf - ptr + len)
                     break;
 
                 *ptr = succ[j];
