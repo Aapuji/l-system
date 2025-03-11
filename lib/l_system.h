@@ -13,6 +13,7 @@ typedef struct {
 
 LSystem init_l_system(Rule *rules, int len);
 void apply(LSystem *l_system, char *axiom, char *buf, int len);
+int get_len(LSystem *l_system, char *axiom);
 
 #endif
 
